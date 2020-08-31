@@ -1,0 +1,51 @@
+import java.io.*;
+/**
+
+<p><b>Author:<b>  Bruce Nyoni.<p>
+<p><b>Email:<b>   3459233@myuwc.ac.za<p>
+<p>Programming assignment 2.1<p>
+*/
+public class NoticeDepositAccount extends SavingsAccount(){
+
+
+	private int noticePeriod;
+
+	public getNoticePeriod(){
+
+
+	}
+
+	public void setNoticePeriod(int n){
+
+	}
+
+	public void withdraw(double o){
+
+	}
+
+	public void deposit(double p){
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,79 @@
+//Import statements
+import java.util.Scanner;
+/**
+
+<p><b>Author:<b>  Bruce Nyoni.<p>
+<p><b>Email:<b>   3459233@myuwc.ac.za<p>
+<p>Programming assignment 5.1<p>
+<p>last modified: 13 August 2015<p>
+
+<h1><p><b>Calculating number of IM's for the price of one SMS  using string inputs<b><p>
+
+<p>This program calculates the amount of IMs that can be send for the price of one SMS.It asks the user to enter the price of one SMS and also the price of one MB. It then calculates the ratio between the two prices. It uses that ratio to compare the difference between the two prices and the uses the ration to calculate the number of IM's that can be send with that amount of an SMS.<p>
+*/
+	
+
+public class MobileCost51 {
+
+	public double priceSMS;				//variable to store the of input double sms price
+	public double priceDATA;			//variable to store the input of double mb price
+	public double ratio;				//to store the ratio of the two prices for later comparisons
+	public double pricePMB;				//to store the price per mb
+	public int im;					//to set the final number of ims to be send				
+	public int mb=(1024*1024);			//set the constant size of a mb
+	public int CHAR_amount=140;			//to set the character size of an im and an sms
+	private String inputSMS;			//to store the input string sms price
+	public String input1;				//to set the string of sms price in the setSMSprice variable
+	public String input2;				//to set the string of mb price to set in the setMBprice variable
+	private String inputMB;				//to store the input string mb price
+	public String SMScost;				//set the string SMS cost
+	public String MBcost;				//set the string MB price
+	
+	public void setPriceSMS(String priceS){
+		inputSMS=priceS;
+	}
+	public String getSMSprice(){
+		return inputSMS;
+	}
+	public void setPriceMB(String priceM){
+		inputMB=priceM;
+		
+	}
+	public String getPriceMB(){
+		return inputMB;
+	}
+	
+	public void userInputs(){
+		Scanner inputs=new Scanner (System.in);
+		 System.out.println("Cents per SMS,e.g. R0.80:");
+          
+          input1=inputs.next(); 
+          setPriceSMS(input1);
+          
+          System.out.println("Rands per MB, e.g R1.50:");		
+          
+          input2=inputs.next();
+          setPriceMB(input2);
+          SMScost=getSMSprice().replace("R", "");
+          MBcost=getPriceMB().replace("R", "");
+          priceSMS=Double.parseDouble(SMScost);                        
+  	  priceDATA=Double.parseDouble(MBcost);
+	}
+	public void computeNumIMs(){
+		priceSMS=Double.parseDouble(SMScost);                        
+		priceDATA=Double.parseDouble(MBcost);                        
+		
+                priceSMS=(priceSMS/priceDATA);                                  
+                ratio=mb*priceSMS;                            
+                pricePMB=ratio/CHAR_amount;	                                            
+                im= (int) pricePMB; 
+	}
+	public void userOutput(){
+		System.out.println("IMs for the price of one SMS:"+im);
+	}
+	
+		
+	
+
+}
+

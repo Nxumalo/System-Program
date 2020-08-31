@@ -1,0 +1,16 @@
+
+public class NumNotFounException extends Exception{
+
+
+
+	public NumNotFoundException(){
+
+		super();
+	
+	}
+	public NumNotFoundException(String message){
+		super(message);
+
+	}
+
+}

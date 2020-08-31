@@ -1,0 +1,39 @@
+import java.util.*;
+import java.io.*;
+
+public class NumBase{
+
+
+	public static void main(String[] args){
+
+		int number;
+		int base;
+		Scanner input=new Scanner(System.in);
+		System.out.println("Please enter number to convert: ");
+		number=input.nextInt();
+		System.out.println("Please enter base to convert to: ");
+		base=input.nextInt();
+	
+		int convert=number/base;
+
+		while(convert!=0){
+			convert=number/base;
+			int temp=base*convert;
+			int newNum=number-temp;
+			System.out.print(newNum);
+			number=convert;
+	
+	
+		}
+
+
+
+
+	}		
+
+
+
+
+
+
+}

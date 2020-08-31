@@ -1,0 +1,12 @@
+
+public class NumberNotFoundException extends Excpetion{
+
+	public NumberNotFoundException(){
+		super();	
+	}	
+	public NumberNotFoundException(String messege){
+		super(messege);
+	}
+	
+	
+}
