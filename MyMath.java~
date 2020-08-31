@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class Mymath{
+
+	public double Calc(double dci,int base){
+		double factor=Math.pow(10,base);
+		return(((int)(dci*factor+0.5)/factor));
+	
+	}
+		
+
+	public static void  main(String[] args){
+		Mymath a=new Mymath();
+		System.out.println(a.Calc(12.009,2));
+	
+	}
+
+
+
+
+
+
+
+
+
+}
