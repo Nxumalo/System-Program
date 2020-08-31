@@ -1,0 +1,38 @@
+import java.util.*;
+import java.io.*;
+
+public class Tower{
+
+	public void tower(int n, char A,char B,char C ){
+	
+		if(n==1){
+			System.out.println("Moving "+A+" to "+B);
+	
+		}else{
+			tower(n-1,A,C,B);
+			System.out.println("Moving "+A+" to "+B);
+			tower(n-1,C,B,A);
+			
+		}
+	
+	
+	
+	}
+
+	public static void main(String[] args){
+		Tower a=new Tower();
+		a.tower(3,'T','Y','C');
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

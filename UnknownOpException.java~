@@ -1,0 +1,14 @@
+
+
+public class UNknownOpException extends Exception{
+
+	public UnknownOpException(){
+		super();
+	}
+	
+	public UnknownOpException(String message){
+		super(message);
+		
+	}
+
+}
