@@ -1,0 +1,48 @@
+import java.util.*;
+import java.io.*;
+
+public class Primes{
+
+	public static void main(String[] args){
+		ArrayList<Integer> prime=new ArrayList<Integer>(); 
+		int limit;
+		Scanner input=new Scanner(System.in);
+		System.out.println("Please enter the number of primes you want displayed: ");
+		
+		limit=input.nextInt();
+		boolean[] isComposite=new boolean[limit+1];
+		
+		for(int i=2;i<limit;i++){
+			if(!isComposite[i]){
+				prime.add(i);
+				int multiple=2;
+				while(i*multiple<limit){
+					isComposit[i*multiple]=true;	
+					multiple++;
+	
+				}
+	
+	
+			}
+	
+		}
+		for(int k=0;k<prime.size();k++){
+			System.out.println(prime.get(k));
+		}
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

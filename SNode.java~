@@ -1,0 +1,72 @@
+import java.util.*;
+/**
+
+<p>Author:  Bruce Nyoni.</p>
+<p>Email:   3459233@myuwc.ac.za</p>
+<p>Programming assignment 4.5</p>
+<P>Last edited 09/10/15</p>
+
+This class creates the nodes which will be used in stacks. It also creates the links to the nodes and has methods which gets data and links of the nodes.
+*/
+
+
+public class SNode <E>{
+	
+    private E data;
+    private SNode link;
+/**
+This is the constructor with no arguments of the class. It sets the instance variables to null
+*/
+    public SNode ()
+    {
+        link = null;
+        data = null;
+    }
+/**
+This is the constructor with parameters.It sets data to user's prefered data as well as link
+@param newData which is the user's prefered data to stck
+@param linkvalue which is the link to the data
+*/
+    public SNode (E newData,SNode linkValue)
+    {
+        data = newData;
+        link = linkValue;
+    }
+/**
+This is the set method for the class
+@param newData which is the data to set to data
+*/
+    public void setData (E newData)
+    {
+        data = newData;
+    }
+/**
+This is the get method for the data
+@return data 
+*/
+    public E getData ()
+    {
+        return data;
+    }
+/**
+The set method for the link
+@param newLink which is the data link
+*/
+    public void setLink (SNode newLink)
+    {
+        link = newLink;
+    }
+/**
+The get method for link 
+@return link
+*/
+    public SNode getLink ()
+    {
+        return link;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,37 @@
+import java.util.*;
+import java.io.*;
+
+public class STringC{
+
+	public String Conc(String str1,String str2){
+		if(str1.length()==0){
+			return str2;
+	
+		}else{
+			return str1.substring(0,1)+Conc(str1.substring(1),str2);
+	
+		}
+	
+	
+	}
+	
+	
+	public static void main(String[] args){
+		STringC a=new STringC();
+		System.out.print(a.Conc("abc","def"));
+		System.out.println("");
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}

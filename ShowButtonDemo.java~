@@ -1,0 +1,91 @@
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowListener;
+public class ShowButtonDemo extends JFrame implements ActionListener
+{
+	public static String insalary;
+	public static String inage;
+	public int lines=8;
+	public int CHAR=35;
+	public JTextField salaryInput;
+	public JTextField ageInput;
+	public JTextArea taxOutput;
+	private  JLabel salaryCom;
+	private JLabel ageCom;
+	private JLabel instructions;
+	public ShowButtonDemo()
+	{
+		Tax3 tax= new Tax3();
+		setSize(500,300);
+		WindowDestroyer listener=new WindowDestroyer();
+		//addWindowListener((WindowListener) listener);
+		
+		Container contentPane=getContentPane();
+		contentPane.setBackground(Color.GRAY);
+		
+		contentPane.setLayout(new FlowLayout());
+		
+		//instructions =new JLabel("Enter your salary and age then th rest is optional..PLEASE!");
+		//contentPane.add(instructions);
+		
+		salaryCom = new JLabel("Enter salary");
+		//salaryCom.setText("Enter salary");
+		contentPane.add(salaryCom);
+		salaryInput=new JTextField(CHAR);
+		contentPane.add(salaryInput);
+		
+		ageCom = new JLabel("Enter age   ");
+		ageCom.setText("Enter age   ");
+		contentPane.add(ageCom);
+		ageInput = new JTextField(CHAR);
+		contentPane.add(ageInput);
+
+
+		JButton taxButton= new JButton("Calculate Tax");
+		contentPane.add(taxButton);
+		taxButton.addActionListener(this);
+
+		
+		taxOutput=new JTextArea(lines,CHAR);
+		contentPane.add(taxOutput);
+
+		JButton savingsButton=new JButton("Calculate Savings");
+		contentPane.add(savingsButton);
+		savingsButton.addActionListener(this);
+
+		//response =new JLabel("BOSO KE BRUCE");
+		//contentPane.add(response);
+	 				  }
+	
+	public void actionPerformed(ActionEvent e){
+		Container contentPane=getContentPane();
+		if(e.getActionCommand().equals("Calculate Tax")){
+			contentPane.setBackground(Color.BLUE);
+			tax.setSalary(get.salaryInput);
+		
+		}
+		else if (e.getActionCommand().equals("Calculate Savings")){
+			
+		    	contentPane.setBackground(Color.GREEN);
+			inage=ageCom.getText();
+			taxOutput.setText(insalary);
+
+			}
+		else {
+			System.out.println("");}
+			
+		
+		
+	}
+	  
+}
+

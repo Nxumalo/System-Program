@@ -1,0 +1,144 @@
+public class Save3{
+/**
+Save3 class does all the savings calculations.It's flexibility allows it to take input and sets variables from other classes.It takes in the user's prefferd savings percentage in double type,it gets this through the main method from TaxAndSaveDemo3.It also get the user's breakdown of savings, all in double type after conversions from utils.It then calculate the user's savings for low risk, medium risk and high risk and outputs the savings separately and also the toal savings.
+*/
+	public double savingsRate;				//this is the savings rate which the user enters 
+	public double savingsHorison=0;				//the addition of all the savings percentiles needs to tally to 100%
+	public double savings;					//this stores the user's savings amount
+	public double lowR=0;					//this sets the low risk to be saved by the user percentile
+	public double medR=0;					//this sets the medium risk to be saved by the user  percentile
+	public double highR=0;					//this sets the high risk to be saved by the user  percentile
+	public double lowRisk;					//low risk on the savings amount
+	public double mediumRisk;				//medium risk on the savings amount
+	public double highRisk;					//high risk on the savings amount
+	public double low=0;					//sets the constant low risk amount to be saved
+	public double med=0;					//sets the constant medium risk amount to be saved
+	public double high=0;					//sets the high risk amount to be saved by the user
+	public double total=0;					//adds all the savings
+	public int years;					//sets the amount of years for savings
+	public int period=0;					//the period for savings
+	public int months=12;					//months
+	public int save=0;					//sets the savings rate to integer type
+	public String s="%";					//for percentils
+	public int n;						//conditions for the for loop
+	public double lo=0;					//constant low risk amount
+	public double me=0;					//constant medium risk amount
+	public double hi=0;					//constant high risk amount
+	public int yearS;
+	public String yearSS;
+
+
+	public Save3(){
+	
+	}
+	/**@param invest sets the percentange to be invested by the user from the user's salary */
+	public void setINVEST(double invest){
+	/**
+	sets savingsrate to invest which it gets from the main class
+	*/
+		savingsRate=invest;
+	}	
+	public double getINVEST(){
+	/**
+	@return savingsRate
+	*/
+		return savingsRate;
+	}
+	/**@param l sets the low risk percentage which it gets from the main class */
+	public void setLOWrisk(double l){
+		lowR=l;
+	}
+
+	public double getLOWrisk(){
+	/**@return low risk	*/
+		return lowR;
+	}
+	/**@param m sets the medium risk percentage which it gets from the main class */
+	public void setMEDrisk(double m){
+		medR=m;
+	}
+
+	public double getMEDrisk(){
+	/**@return medium risk percentage */
+		return medR;
+	}
+	/**@param h sets the high risk amount percentage which it gets from the main class  */
+	public void setHIGHrisk(double h){
+		highR=h;
+	}
+	
+	public double getHIGHrisk(){
+	/**@return high risk percentage */
+		return highR;
+	}
+
+	
+	public void saveInput(){
+	/**
+	This method does calculation which allows for user output later
+	*/
+		savings=TaxAndSaveDemo3.salary*(getINVEST()/100);
+		save=(int) getINVEST();
+		/**
+		System.out.println("Enter percentage of monthly salary to invest, e.g. 25%:");
+		
+		savingsRate=TaxAndSaveDemo3.Str_input.nextDouble();
+		savings=TaxAndSaveDemo3.salary*(savingsRate/100);
+		save=(int) savingsRate;
+		System.out.println("Enter number of years to invest, e.g. 5:");
+		years=TaxAndSaveDemo3.Str_input.nextInt();
+
+		while(savingsHorison!=100){
+			System.out.println("Enter percentage to invest in low risk:");
+			lowR=TaxAndSaveDemo3.Str_input.nextDouble();
+			System.out.println("Enter percentage to invest in medium risk:");
+			medR=TaxAndSaveDemo3.Str_input.nextDouble();
+			System.out.println("Enter percentage to invest in high risk:");
+			highR=TaxAndSaveDemo3.Str_input.nextDouble();
+			savingsHorison=lowR+medR+highR;
+			if(savingsHorison!=100){
+				System.out.println("Please make sure the percentages add up to 100%");
+			}
+		}
+	}
+	*/
+	}
+	public void saveCalculation(){
+	/**
+	All the final calculations for this class are done here. Low risk yeald with the consideration of the amount to be saved, medium risk yeald with the consideration of the amount to be saved and high risk yeald with the consideration of the amount to be saved. It also sets the period and does a for loop to calculate the final savings amount after the user's preferred period of savings
+	*/
+		lowRisk=(getLOWrisk()/100)*savings;					//sets the low risk 
+		mediumRisk=(getMEDrisk()/100)*savings;					//sets the medium risk
+		highRisk=(getHIGHrisk()/100)*savings;					//sets the high risk
+			
+		years=Integer.parseInt(yearSS);
+		period=TaxAndSaveDemo3.yearS*months;
+		lo=lowRisk;
+		hi=highRisk;
+		me=mediumRisk;
+
+		low=lowRisk;
+		med=mediumRisk;
+		high=highRisk;
+		for(n=1;n<period;n++){
+			lowRisk=lo+(lowRisk+((0.75/100)*lowRisk));
+			mediumRisk=me+(mediumRisk+((1.0/100)*mediumRisk));
+			highRisk=hi+(highRisk+((1.25/100)*highRisk));
+			
+			}
+		total=lowRisk+mediumRisk+highRisk;
+	}//this method does all the output
+	public void saveOutput(){
+		System.out.printf("After saving %d%s for %d years \n",save,s,years);
+		System.out.printf("Low risk yield is %.2f \n",lowRisk);
+		System.out.printf("Medium risk yield is %.2f\n",mediumRisk);
+		System.out.printf("High risk yield is %.2f \n",highRisk); 
+		System.out.printf("Total yield is %.2f \n",total);
+	}
+ 
+	public  static void main(String args[]){
+		
+	}
+}
+ 
+

@@ -1,0 +1,12 @@
+public class strip{
+	private String salaryout1;
+
+
+	public void stripR(){
+		salaryout=getSalary().replace("R","");
+
+	}
+	public void strip%(){
+
+	}
+}
