@@ -2,6 +2,5 @@
 2.To see the programs documentation, open the index.html
 3.To run the code: - open terminal
 		   - go to the directory which contains the extracted documents
-		   -type java  TesterStack  
-3.Happy marking
+		   -type java
 
