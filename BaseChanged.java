@@ -1,9 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BaseChange{
-
-	
+public class BaseChanged{
 
 	public static void main(String[] args){
 
@@ -33,33 +31,5 @@ public class BaseChange{
 		}		
 		System.out.println("");
 
-
-
-
-
-
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
