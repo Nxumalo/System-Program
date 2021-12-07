@@ -117,8 +117,7 @@ This program asks for the person's age and monthly salaries. It uses this inform
 			break;
 
 		}
-	
-		
+			
 		net_tax= (tax/salaryAA)*100;
 		n_tax=(int)(Math.ceil(net_tax));
 		salaryAAA=(int)salaryAA;
@@ -126,6 +125,5 @@ This program asks for the person's age and monthly salaries. It uses this inform
 		System.out.printf("Tax for annual salary of R%d is R%.2f which is net %d%s\n",salaryAAA,tax,n_tax,s);
 		
  }
-	
 	
 }
