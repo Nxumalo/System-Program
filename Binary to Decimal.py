@@ -24,18 +24,3 @@ while index<len(num):
         print("This is your value in decimal form",decimal_value)
         break
     
-
-
-
- 
-
-    
-
-
-    
-
-
-    
-        
-
-    
