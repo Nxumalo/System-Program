@@ -8,6 +8,7 @@ public class CalculatingTax{
 		CalculatingTax output = new CalculatingTax();
 		
 		//the input inforamtion
+		
 		System.out.print("enter the income :");
 		String stringMonthlyIncome = input.nextLine();
 		int dot = stringMonthlyIncome.indexOf(".");
