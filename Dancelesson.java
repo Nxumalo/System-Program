@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class DanceLesson2
+public class Dancelesson
 {
     public static void main(String[] args)
     {
