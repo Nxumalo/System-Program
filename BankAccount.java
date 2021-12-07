@@ -74,20 +74,4 @@ public class BankAccount{
 	public String toString(){
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
