@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Bin{
+public class Binn{
 	
 	public static void main(String[] args){
 
@@ -41,12 +41,5 @@ public class Bin{
 		}
 
 	}
-
-
-
-
-
-
-
 
 }
