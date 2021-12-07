@@ -5,7 +5,7 @@ import java.util.*;
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
 <p>Programming assignment <p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 7/12/2021<p>
 
 This class is super class for BetterCalulation class.
 
