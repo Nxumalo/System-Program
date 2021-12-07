@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BubbleSort{
+public class Bubblesort{
 
 	public static int[] array={9,8,7,16,5,4,3,82,1};
 	
@@ -42,25 +42,5 @@ public class BubbleSort{
 		array[indextwo]=temp;
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
