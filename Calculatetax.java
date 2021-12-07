@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 <p>This program asks for the person's age and monthly salaries. It uses this information to calculate their net anual tax due to SARS.It only considers tax of individual monthly salaries....all other deductions are not considered in this programme.
 */
-public class CalculateTax2{
+public class Calculatetax{
 /**
 This program asks for the person's age and monthly salaries. It uses this information to calculate their net anual tax due to SARS. It asks for the salary and stores it as a string data type. It converts the string type salary to a interger type which it then uses to calculatethe user's annual salaryIt then evaluates the user's age and their corresponding salaries....if the user qualifies for tax, the programme then evaluates the users annual salary. It groups the salary in accordance to the salary amount and which tax deduction system it falls under. It then calculates the tax, subtract the corresponding rebates. It also calculates the ratio of the final tax with the user's salary then outputs the user's annual salary and actaul net tax the user pay. 
 
