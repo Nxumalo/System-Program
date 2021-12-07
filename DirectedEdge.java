@@ -8,7 +8,7 @@
  *
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 7/12/2021<p>
 
  */
 public class DirectedEdge { 
@@ -70,6 +70,7 @@ public class DirectedEdge {
     /**
      * Unit tests the <tt>DirectedEdge</tt> data type.
      */
+    
     public static void main(String[] args) {
         DirectedEdge e = new DirectedEdge(12, 23, 3.14);
         StdOut.println(e);
