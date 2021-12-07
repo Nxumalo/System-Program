@@ -2,8 +2,6 @@ import java.util.*;
 import java.io.*;
 
 public class BinaryFile{
-
-		
 	public static void main(String[] args){
 		String fileName="numbers.dat";
 	
@@ -31,13 +29,6 @@ public class BinaryFile{
 	
 		}
 		
-	
-
 	}
-
-
-
-
-
 
 }
