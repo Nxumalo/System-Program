@@ -3,8 +3,6 @@ import java.io.*;
 
 public class BaseChange{
 
-	
-
 	public static void main(String[] args){
 
 		Scanner input=new Scanner(System.in);
@@ -33,33 +31,5 @@ public class BaseChange{
 		}		
 		System.out.println("");
 
-
-
-
-
-
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
