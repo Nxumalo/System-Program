@@ -1,5 +1,4 @@
-
-    def set_stations(self,stations):
+def set_stations(self,stations):
 
         if stations == [cpt,esp,yst,ken,cen,aka,mon,deg,avo,oos,blv]:
             self.stations = stations
