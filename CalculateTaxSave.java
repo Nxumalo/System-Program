@@ -171,13 +171,6 @@ This program asks for the person's age and monthly salaries. It uses this inform
 		System.out.printf("High risk yield is %.2f \n",high); 
 		System.out.printf("Total yield is %.2f \n",total);
 
-		
-		
-	
-		
-		
- }
-	
-	
-	
+	 }
+
 }
