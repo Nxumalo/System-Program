@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
 public class Coordinate {
 	
 	public Coordinate(int x, int y) {
@@ -82,9 +81,10 @@ public class Coordinate {
         {
             System.out.println("Cannot find file ");
         }
-        Scanner coor = new Scanner(new File(fileName3));*/
-			
-			
+        Scanner coor = new Scanner(new File(fileName3));
+	
+	*/
+		
             while (coor.hasNextLine())
             {
             	String lineT = coor.nextLine();
@@ -131,11 +131,13 @@ public class Coordinate {
         for(int i=0; i<z-1;i++){
         	for(int j = i + 1; j<z;j++){
         		d1[s] = distanceBetween(store[j], store[i]);
-				/*if (d1[s] == 0){
+				/*
+				if (d1[s] == 0){
 						System.out.println("store[j] :" +store[j]);
 						System.out.println("store[i] :" +store[i]);
 				}
-				System.out.println("Dis: "+d1[s]);*/
+				System.out.println("Dis: "+d1[s]);
+				*/
 				
         		s++;
         	}
@@ -155,7 +157,8 @@ public class Coordinate {
    
 	}
 	
-	/*public void run(){
+	/*
+	public void run(){
 		double[] d1 = storing("Person1.csv");
 		double[] p1 = storing("TestFile1.csv");
 		
@@ -168,13 +171,15 @@ public class Coordinate {
 			}
 		}
 		System.out.println("its a match! ");
-	}*/
-	        
-	
+	}
+	*/
+	        	
 	/*public static void main(String[] args) {
 		Coordinate test = new Coordinate();
 		test.run();
 
-	}*/
+	}
+	
+	*/
 
 }
