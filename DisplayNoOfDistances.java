@@ -1,6 +1,7 @@
 /**
  * Display the no of distances to be calculated for n no of nodes
- * 
+ * Fraser Nxumalo 
+  Email: 3538264@myuwc.ac.za
  */
 
 public class DisplayNoOfDistances
