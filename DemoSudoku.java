@@ -6,11 +6,10 @@ import java.io.*;
 // ---------------------------------------------------
 /**
 
-
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
 <p>Programming assignment 4.2<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 7/12/2021<p>
 <h1>Solving a set sudoku</h1>
 
 <p>This program creates a board for sudoku which it then will use to solve the sudoku. After creating the board it fills in the set numbers and fills all the empty cells with string 123456789. Then, it checks all the cells with one string, it ten removes that string from all other cells in the same column an same row and also same 3 by 3 dimension. After removing all the set numbers from corresponding cells, It does a slow but efficient check on all cells containing more than one digit. It checks for the digit within that cell which is the only one within the 3 by 3 region of the cell. If the digit is the only one, it then sets that particular cell to contain only the digit, therefore deleting all the other digits withing the cell. It does this over and over until there exist only one digit within each cell. Through all this...it will be displaying he board with changes made until the last board is reached.</p>
@@ -415,7 +414,8 @@ This method alows for the running of the program. It does necessary allings of o
 				}
 			}
 		}
-		}/**
+		}
+	 /**
 		int rq=0;
 		int count=0;
 		int a=1;
