@@ -14,7 +14,6 @@ import java.util.Scanner;
 //  Using this approach, I can easily convert my program to
 //  a "proper class", by merely removing the static main method from the 
 //  java file.
-//  
 
 public class AboutMyPrograms
 {	
