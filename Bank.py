@@ -1,4 +1,3 @@
-
 class bankingOperation:
 
     def __init__(self,date,amount,sign,massage,types):
@@ -47,4 +46,4 @@ class bankingOperation:
             return False
     
     def is_more_recent(self,date):
-        
+     
