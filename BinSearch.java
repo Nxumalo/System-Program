@@ -60,22 +60,6 @@ public class BinSearch{
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
