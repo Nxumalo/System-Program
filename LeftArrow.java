@@ -2,7 +2,7 @@ import java.io.*;
 /**
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 09/12/2021<p>
 
 
 This class is a subclass of ShapeBase class. It inherits methods from the super class and also overides some methodes. Its purpose however is to draw an arrow with a head facing the left direction. It has two constructors, two accessors and two mutators. The first constructor is to accomodate for no input and the second one is to accomodate with input. It takes in the number to set for the base of the arrow head, the lenght of the tail, the offset which tells it where to start drawing this arrow. It also takes in the lenght of the sides of the arrow head. This method is identical to the right arrow class except the way it draws.
