@@ -3,7 +3,7 @@ import java.io.*;
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
 <p>Programming assignment 4.4<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 09/12/2021<p>
 
 This is a sub class for class person. It prints out the doctors at a hospital with their respective specialties. It has two constructors. One which takes no parameters and one which does. It has methods that will be ovrriden by its sub class.
 
