@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 /**
  Demonstrates Using the class PartiallyFilledArray,
+ University of the Western Cape 
+ Fraser Nxumalo
+ 3538264@myuwc.ac.za
 */
 public class GolfScoresVersion2
 {
