@@ -30,4 +30,3 @@ b = a.square()
 print(type(b))
 
 print(a.add(b))
-
