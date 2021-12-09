@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Magic{
+public class MagicTrick{
 
 	int size;
 	int [][] square;
