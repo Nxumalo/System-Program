@@ -71,21 +71,3 @@ def BaseFbase10(value):
     return value
 print("The Decimal value you've enter in base F which is to the power of 4 " + str(BaseFbase10(value))) # My prefix value comes before the 0 ""
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
