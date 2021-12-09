@@ -19,7 +19,7 @@
 #         files ending in ~, 
 #         the errors file and
 #         the output file.
-#
+
 
 OBJ = HuffmanCode
 DS = other
