@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class mergeSort{
+public class MergeSort{
 	//----merge two sorted lists into a single list
 	public static void main(String[] args){
 		
