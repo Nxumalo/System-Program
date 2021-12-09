@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class LinkNode{
+public class LinkNodes{
 	
 	int data;
 	linkNode link;	
@@ -30,21 +30,4 @@ public class LinkNode{
 	}
 	
 	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
