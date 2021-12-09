@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class sentinel{
+public class Sentinell{
 	
 	int len;
 	String sentence;
