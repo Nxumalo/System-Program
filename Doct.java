@@ -1,8 +1,5 @@
 import java.io.*;
-
-
-
-public class Doctor extends Person{
+public class Doct extends Person{
 
 	public String specialty;
 	public String officeHours;
@@ -49,10 +46,6 @@ public class Doctor extends Person{
 		System.out.println("");
 		System.out.println("----------------------------------------------------------------------");
     	}
-
-	
-
-
 
 
 }
