@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class HasNextIntDemo
+public class HasNextInt
 {
     public static void main(String[] args)
     {
