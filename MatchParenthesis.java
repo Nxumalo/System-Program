@@ -4,7 +4,7 @@ import java.util.*;
 
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 09/12/2021<p>
 
 This class checks an algebra entered by user to see if the number of oppening brckets match the number of clossing brackests. If it does not match, it identifies the extra, unclosed or unopened brackets and tells the user where these brackets exist.
 */
@@ -50,9 +50,6 @@ This method takes in the user's input as a string. It converts the string input 
 
 	
 	}
-
-
-
 
 
 }
