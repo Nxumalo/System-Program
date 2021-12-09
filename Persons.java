@@ -1,6 +1,6 @@
 import java.util.
 
-public class Person
+public class Persons
 {
     private String name;
     public Person ()
