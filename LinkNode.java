@@ -33,22 +33,5 @@ public class LinkNode{
 	
 	}
 	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
