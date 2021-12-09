@@ -2,7 +2,7 @@ import java.util.*;
 /**
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 09/12/2021<p>
 
 This class creates a stack of objects. It as a couple of methods which will be used to manipulate the objects. It also creates an object of type node which is a seperate class.
 */
