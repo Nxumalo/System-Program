@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Merge{
+public class Merges{
 
 	//int[] a;
 	
@@ -76,21 +76,6 @@ public class Merge{
 		a.Sort(z);
 	
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
