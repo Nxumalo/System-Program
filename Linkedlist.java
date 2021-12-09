@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 /**
 
-<p>Author:  Bruce Nyoni.</p>
-<p>Email:   3459233@myuwc.ac.za</p>
+<p>Author:  Fraser Nxumalo</p>
+<p>Email:   3538264@myuwc.ac.za</p>
 <p>Programming assignment 4.5</p>
-<P>Last edited 16/10/15</p>
+<P>Last edited 09/12/21</p>
 
 This class implements the interface SLinkedList which is abstract. It overides all its methods so it can create an Array list of any data type . In this list, new objects will be added and removed.
 
@@ -12,7 +12,7 @@ This class implements the interface SLinkedList which is abstract. It overides a
 
 
 
-public  class LinkedList <E> implements SLinkedList <E>{
+public  class Linkedlist <E> implements SLinkedList <E>{
 
 
 	ArrayList <E> theList;				//=new ArrayList <Integer>();
