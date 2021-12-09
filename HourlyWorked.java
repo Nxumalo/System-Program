@@ -1,6 +1,6 @@
 import java.io.*;                          
 
-public class HourlyWorker extends Worker{
+public class HourlyWorked extends Worker{
 	public int hours=0;
 	public double pay=0;
 	public HourlyWorker(){
@@ -33,7 +33,6 @@ public class HourlyWorker extends Worker{
 		else{
 			 pay=hour*SalaryRate;
 		}
-		
 		
 		
 	}
