@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Example1b
+public class Example
 {
 	// Manipulating one dimensional arrays
-
 	int[] array1 = {10, 20, 30, 40, 50, 60};
 	int[] array2 = {100, 200, 300, 400, 500, 600}; 
 	int[] array3 = new int[6];
