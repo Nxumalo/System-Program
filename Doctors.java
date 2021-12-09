@@ -1,4 +1,4 @@
-public class Doctor extends Person
+public class Doctors extends Person
 {
 	private String speciality;
 	private double visitFee;
@@ -98,15 +98,5 @@ public class Doctor extends Person
 		System.out.println("The doctor is: " + doc.getName() + " and his Speciality is: " + doc.speciality + " and his visit fee is: " + doc.visitFee);
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 }
