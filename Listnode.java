@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class ListNode{
+public class Listnode{
 
 	public ListNode link;
 	public String data;
