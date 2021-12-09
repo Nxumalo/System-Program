@@ -58,28 +58,5 @@ def sort(mylist):
 print("The sorted list of the swap is : " ,sort(mylist))
     
         
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
 
