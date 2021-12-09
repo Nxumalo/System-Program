@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Master{
+public class Masters{
 
 	int[] solution=new int[4];
 	int[] copySolu=new int[4];
@@ -15,10 +15,6 @@ public class Master{
 			color=input.nextLine().trim().toUpperCase();
 			user[i]=convertInt(color);
 			
-		
-	
-	
-	
 	
 		}
 	
@@ -141,20 +137,6 @@ public class Master{
 		a.run();
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
