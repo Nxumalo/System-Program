@@ -1,8 +1,8 @@
 public class GeneratingNumbers{
+	
 	public static void main(String[] args){
 		GeneratingNumbers.generate();
 	}
-	
 	public static void generate(){
 		int[] shuffledDeck = new int[53];
 		for (int deck = 1; deck <= 52; deck ++) shuffledDeck[deck] = deck;
