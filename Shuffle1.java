@@ -1,7 +1,7 @@
 import java.lang.Math.*;
 import java.util.Arrays;
 //------shuffling for improved very bad method-----
-public class shuffle1{
+public class Shuffle1{
 	public static void main(String[] args){
 		int n = 52;
 		int[] shuffled = new int[n+1];
