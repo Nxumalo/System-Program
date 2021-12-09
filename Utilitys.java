@@ -13,7 +13,7 @@ This class cleates methods to be used in other classes for comparisons. This inc
 @param no1
 @param no2	
 */
-public class utilities{
+public class Utilitys{
 /**
 This method is used to compare the the greatest of two integers
 @return the greatest of int 1 and int 2
