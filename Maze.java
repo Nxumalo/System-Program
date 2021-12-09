@@ -1,4 +1,4 @@
-// Surname:                   Student no.:
+// Firstname: Fraser Surname: Nxumalo                  Student no.: 3538264@myuwc.ac.za
 // --------------------------------------------------------------------------
 
 public class Maze
