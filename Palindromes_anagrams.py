@@ -76,5 +76,3 @@ print(are_anagrams_recur("horse", "Shores"), ': should be False')
 
 print(produce_anagrams("horse",10))
 print(produce_anagrams("Mopti",5))
-
-
