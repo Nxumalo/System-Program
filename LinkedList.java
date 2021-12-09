@@ -2,7 +2,7 @@ import java.util.ArrayList;
 /**
 <p><b>Author:<b>  Fraser Nxumalo.<p>
 <p><b>Email:<b>   3538264@myuwc.ac.za<p>
-<p>Last modified: 31/08/2020<p>
+<p>Last modified: 09/12/2021<p>
 
 This class implements the interface SLinkedList which is abstract. It overides all its methods so it can create an Array list of any data type . In this list, new objects will be added and removed.
 
