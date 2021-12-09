@@ -1,7 +1,9 @@
 // This class uses the Employee class defined in Chapter 7.
+// Fraser Nxumalo
+// 3538264@myuwc.ac.za
 import java.util.HashMap;
 import java.util.Scanner;
-public class HashMapDemo
+public class HashMap
 {
 	public static void main(String[] args)
 	{
