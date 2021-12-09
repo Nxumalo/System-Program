@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class HashSetDemo
+public class HashSet
 {
 	private static void outputSet(HashSet<String> set)
 	{
