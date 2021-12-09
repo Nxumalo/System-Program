@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class ForEachEnumDemo
+public class ForEachEnum
 {
     enum WorkDay {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY};
 
