@@ -1,4 +1,4 @@
-public class MobileCost51Demo{
+public class MobileCost53{
 	public static void main(String args[]){
 		
 		MobileCost51 mObject= new MobileCost51();
