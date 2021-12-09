@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class EnumSwitchDemo
 {
     enum Flavor {VANILLA, CHOCOLATE, STRAWBERRY};
-
+    
     public static void main(String[] args)
     {
         Flavor favorite = null;
