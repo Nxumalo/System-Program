@@ -242,9 +242,6 @@ class Triangle(Polygon):
 				return base*h/2
 
 
-
-
-
 # TOPLEVEL: TESTS
 
 
