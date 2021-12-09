@@ -2,7 +2,8 @@
 public class DoubleException extends Exception
 {
     private double doubleMessage;
-
+    
+   
     public DoubleException( )
     {
         super("DoubleException thrown!");
