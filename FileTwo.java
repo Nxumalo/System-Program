@@ -1,8 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-
-public class FileOne{
+public class FileTwo{
 
 	public static String fileName="out.txt";
 	public static Scanner inputStream=null;
