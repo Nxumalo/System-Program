@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class FirstFile{
+public class SecFile{
 
 	public static void main(String[] args){
 		String fileName="out.txt";
@@ -31,7 +31,6 @@ public class FirstFile{
 			outputStream.close();
 		
 		
-
-		}	
+	}	
 
 }
