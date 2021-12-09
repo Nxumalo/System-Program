@@ -1,16 +1,16 @@
 import java.io.*;
 /**
 
-<p><b>Author:<b>  Bruce Nyoni.</p>
-<p><b>Email:<b>   3459233@myuwc.ac.za</p>
+<p><b>Author:<b>  Fraser Nxumalo</p>
+<p><b>Email:<b>   3538264@myuwc.ac.za</p>
 <p>Programming assignment 4.4</p>
-<P>Last edited 01/10/15</p>
+<P>Last edited 09/12/21</p>
 
 
 This class is a subclass of ShapeBase class. It inherits methods from the super class and also overides some methodes. Its purpose however is to draw an arrow with a head facing the left direction. It has two constructors, two accessors and two mutators. The first constructor is to accomodate for no input and the second one is to accomodate with input. It takes in the number to set for the base of the arrow head, the lenght of the tail, the offset which tells it where to start drawing this arrow. It also takes in the lenght of the sides of the arrow head. This method is identical to the right arrow class except the way it draws.
 */
 		
-public class LeftArrow extends ShapeBase{
+public class LeftArrows extends ShapeBase{
 
 	public int tail;							//sets tail
 	public int base;							//sets base
@@ -191,10 +191,5 @@ This method sets the skip spaces which skips spaces required by user
               	  	System.out.print (' ');
       		 }	
       }
-
-
-
-
-
 
 }
