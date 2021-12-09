@@ -135,5 +135,3 @@ draw_sierpinski_inner(300, -200, 500, tt)
 #draw_square(200)
 wn.mainloop() # to keep the window open
 
-
-
