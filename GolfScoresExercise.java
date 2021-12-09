@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class GolfScoresExercise
 {
     public static final int MAX_NUMBER_SCORES = 10;
-
     /**
      Shows differences between each of a list of golf scores and their average.
     */
