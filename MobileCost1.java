@@ -21,5 +21,5 @@ public class MobileCost1 {
                 
                 System.out.println("IMs for the price of one SMS:"+d);
 
-}
+        }
 }
