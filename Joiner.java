@@ -9,8 +9,6 @@ public class Joiner{
 			return st1.substring(0,1)+joiner(st1.substring(1),st2);
 		}
 
-
-
 	}
 
 	public void run()
@@ -24,6 +22,5 @@ public class Joiner{
 		Joiner objct = new Joiner();
 		objct.run();
 	}
-
 
 }
