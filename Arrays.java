@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExampleOfArray1
+public class Arrays
 {
 	int[] number = new int[5];
 	
