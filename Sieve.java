@@ -34,15 +34,4 @@ public class Sieve{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 }
