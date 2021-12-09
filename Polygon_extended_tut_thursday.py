@@ -50,4 +50,3 @@ print(mysquare)
 
 square2 = RegularPolygon(4,30)
 print(square2)
-
