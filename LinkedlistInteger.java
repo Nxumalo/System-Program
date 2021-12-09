@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 
-
-
-public class LinkedListInteger	implements SLinkedListInteger<E> {
+public class LinkedlistInteger	implements SLinkedListInteger<E> {
 
 
 	ArrayList <Integer> theList;//=new ArrayList <Integer>();
