@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class FileOne{
+public class FileThree{
 
 	public static void main(String[] args){
 	
@@ -18,12 +18,4 @@ public class FileOne{
 		}
 
 	}
-
-
-
-
-
-
-
-
 }
