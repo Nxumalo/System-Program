@@ -50,5 +50,4 @@ public class HourlyWorker extends Worker{
 		System.out.println();
 	}
 
-
 }
