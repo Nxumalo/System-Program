@@ -1,15 +1,15 @@
 import java.util.*;
 /**
 
-<p>Author:  Bruce Nyoni.</p>
-<p>Email:   3459233@myuwc.ac.za</p>
+<p>Author:  Fraser Nxumalo</p>
+<p>Email:   3538264@myuwc.ac.za</p>
 <p>Programming assignment 4.5</p>
-<P>Last edited 09/10/15</p>
+<P>Last edited 09/12/21</p>
 
 This class creates a stack of objects. It as a couple of methods which will be used to manipulate the objects. It also creates an object of type node which is a seperate class.
 */
 
-public class LinkedStack <E> {
+public class Linkedstack <E> {
 	
 	
 	
