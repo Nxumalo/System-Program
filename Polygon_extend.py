@@ -16,7 +16,6 @@ class Polygon:
 				return self.num_edges # correct also, without re-calculating
 
 
-
 class RegularPolygon(Polygon):
 
 		def __init__(self, num_edges, edge_len):
