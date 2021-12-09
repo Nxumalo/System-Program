@@ -2,7 +2,7 @@ import java.lang.Math.*;
 import java.io.*;   
 import java.text.*;
 
-public class tryList{
+public class TryList{
 public static int N = 52*1;
 
 public static void main(String args[]){
