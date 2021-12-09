@@ -18,8 +18,6 @@ public class Master{
 		
 	
 	
-	
-	
 		}
 	
 	
@@ -141,21 +139,5 @@ public class Master{
 		a.run();
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
