@@ -13,6 +13,7 @@ public class GenerateTheAlphabet
 		int k = 0;
 		for (char ch = 'A'; ch <= 'Z'; ch++,k++)
 			System.out.print(ch+" ");
+		
 		System.out.println("\n\n");
 	}
 
