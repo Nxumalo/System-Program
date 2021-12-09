@@ -1,8 +1,8 @@
 /**
-<p><b>Author:<b>  Bruce Nyoni.<p>
-<p><b>Email:<b>   3459233@myuwc.ac.za<p>
-<p>Programming assignment 2.1<p>
-<p>Last modified: 31/07/2015<p>
+<p><b>Author:<b>  Fraser Nxumalo<p>
+<p><b>Email:<b>   3538264@myuwc.ac.za<p>
+<p>Programming assignment <p>
+<p>Last modified: 09/12/2021<p>
 
 <h1>Calculating tax due to SARS</h1>
 
