@@ -78,9 +78,6 @@ def draw_sierpinski_inner(origin_x, origin_y, size, myturtle):
 		draw_sierpinski_inner(origin_x + next_size / 2, origin_y + h * next_size, next_size, myturtle)
 
 
-
-
-
 def draw_sp_square(origin_x, origin_y, size):
 	# just to play with, an alternate fractal figure based on squares rather than triangles
 	if size <= 2:
