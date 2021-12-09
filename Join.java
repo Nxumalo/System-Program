@@ -1,4 +1,4 @@
-public class Joiner{
+public class Join{
 
 	public static String joiner(String st1, String st2){
 
