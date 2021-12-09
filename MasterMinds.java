@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 
-public class MasterMind{
+public class MasterMinds{
 	Scanner input = new Scanner(System.in); 
 	int[] solution = new int[4];
 	int[] copySolu = new int[4];
@@ -167,10 +167,6 @@ public class MasterMind{
 
 
 	}
-
-
-
-
 
 
 
